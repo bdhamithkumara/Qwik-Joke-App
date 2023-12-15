@@ -1,9 +1,11 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
+import Header from "~/components/header/header";
 
 export default component$(() => {
   return (
     <>
+    <Header/>
       <div class=" text-white ">
         <h1>Hi 👋</h1>
         <p>
